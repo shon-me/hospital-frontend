@@ -25,6 +25,7 @@ const vuetify = createVuetify({
             colors: {
                 primary: "#F4511E",
                 secondary: "#FF3D00",
+                text: "#ffff",
             },
         },
     },
