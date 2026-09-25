@@ -21,7 +21,7 @@ function handleLogin(){
         password: password.value,
     }
     login(data)
-    router.push('/hompage').then(() => {
+    router.push('/homepage').then(() => {
         router.go(0)
     });
 }
