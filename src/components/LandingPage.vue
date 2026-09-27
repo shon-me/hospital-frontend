@@ -33,37 +33,37 @@
      <v-container max-width="100%">
         <v-row>
             <v-col md="3">
-                <v-card width="300px">
-                    <v-img src="/images/clinic1.jpg" height="400" cover></v-img>
-                    <v-card-tittle> Laboratory Services </v-card-tittle>
-                    <v-card-text>The Uzima Hospitals Laboratory Services department delivers precise, rapid, and reliable diagnostic testing crucial for effective medical treatment. Equipped with next-generation automated technology and staffed by expert medical laboratory scientists, our facility offers a comprehensive range of tests—from routine blood chemistry to specialized pathology. We ensure uncompromising quality control and fast turnaround times, empowering physicians to make accurate diagnoses and guide your personalized treatment plan with absolute confidence.</v-card-text>
+                <v-card width="300px" height="620">
+                    <v-img src="/images/clinic1.jpg" height="300" cover></v-img>
+                    <v-card-title> Laboratory Services </v-card-title>
+                    <v-card-text>The Uzima Hospitals Laboratory Services department delivers precise, rapid, and reliable diagnostic testing crucial for effective medical treatment. We ensure uncompromising quality control and fast turnaround times, empowering physicians to make accurate diagnoses and guide your personalized treatment plan with absolute confidence.</v-card-text>
                     <v-btn class="ma-4">Learn More</v-btn>
                 </v-card>
             </v-col>
 
              <v-col md="3">
-                <v-card width="300px">
-                    <v-img src="/images/clinic2.jpg" height="400" cover></v-img>
-                    <v-card-tittle> Surgical Services </v-card-tittle>
-                    <v-card-text>The Uzima Hospitals Surgical Services department delivers advanced, safe, and compassionate surgical care across a wide range of specialized disciplines. Equipped with ultra-modern operating suites and cutting-edge minimally invasive technology, our expert team of surgeons, anesthesiologists, and specialized nurses ensures precision and optimal outcomes. From routine procedures to complex operations, we prioritize your safety, comfort, and rapid recovery throughout your entire surgical journey.</v-card-text>
+                <v-card width="300px" height="620">
+                    <v-img src="/images/clinic2.jpg" height="300" cover></v-img>
+                    <v-card-title> Surgical Services </v-card-title>
+                    <v-card-text>The Uzima Hospitals Surgical Services department delivers advanced, safe, and compassionate surgical care across a wide range of specialized disciplines.</v-card-text>
                     <v-btn class="ma-4">Learn More</v-btn>
                 </v-card>
             </v-col>
 
              <v-col md="3">
-                <v-card width="300px">
-                    <v-img src="/images/clinic3.jpg" height="400" cover></v-img>
-                    <v-card-tittle> Dental Services </v-card-tittle>
-                    <v-card-text>The Uzima Hospitals Dental Department provides comprehensive, advanced oral healthcare tailored for patients of all ages. Equipped with state-of-the-art diagnostic technology and modern treatment suites, our team of expert dental surgeons and specialists delivers exceptional care ranging from routine preventive check-ups and restorative procedures to complex cosmetic and orthodontic treatments. We ensure a comfortable, pain-free environment designed to protect your oral health and give you a confident smile.</v-card-text>
+                <v-card width="300px" height="620">
+                    <v-img src="/images/clinic3.jpg" height="300" cover></v-img>
+                    <v-card-title> Dental Services </v-card-title>
+                    <v-card-text>The Uzima Hospitals Dental Department provides comprehensive, advanced oral healthcare tailored for patients of all ages. We ensure a comfortable, pain-free environment designed to protect your oral health and give you a confident smile.</v-card-text>
                     <v-btn class="ma-4">Learn More</v-btn>
                 </v-card>
             </v-col>
 
              <v-col md="3">
-                <v-card width="300px">
-                    <v-img src="/images/clinic4.jpg" height="400" cover></v-img>
-                    <v-card-tittle> Eye Clinic </v-card-tittle>
-                    <v-card-text>The Uzima Hospitals Eye Clinic delivers comprehensive, world-class vision care tailored to patients of all ages. Equipped with cutting-edge diagnostic tools and advanced surgical technology, our expert team of ophthalmologists and optometrists provides a full spectrum of services—from routine eye examinations and precise vision corrections to complex treatments for ocular conditions. We are dedicated to protecting your precious sight, ensuring optimal clarity, health, and personalized care.</v-card-text>
+                <v-card width="300px" height="620">
+                    <v-img src="/images/clinic4.jpg" height="300" cover></v-img>
+                    <v-card-title> Eye Clinic </v-card-title>
+                    <v-card-text>The Uzima Hospitals Eye Clinic delivers comprehensive, world-class vision care tailored to patients of all ages. We are dedicated to protecting your precious sight, ensuring optimal clarity, health, and personalized care.</v-card-text>
                     <v-btn class="ma-4">Learn More</v-btn>
                 </v-card>
             </v-col>
