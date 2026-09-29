@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 
 export const usePatientsStore = defineStore('patients', () => {
 
-    const patients = ref([
+    const createPatientsList = () => [
         {
             id: 1,
             firstName: "John",
@@ -45,7 +45,9 @@ export const usePatientsStore = defineStore('patients', () => {
             dob: "2000-12-08",
         },
 
-    ])
+    ]
+
+    const patients = ref(createPatientsList())
 
     const selectedPatientId = ref(null)
     const selectedPatient = computed(() => {
@@ -61,11 +63,45 @@ export const usePatientsStore = defineStore('patients', () => {
         data.id = lastId + 1
         patients.value.push(data)
     }
+
+    const resetPatients = () => {
+        patients.value = createPatientsList()
+    }
+
+    function newTriage(data,patientId){
+        const patient = patients.value.find(
+            p => p.id === patientId
+        );
+        patient.triage = data
+    }
+
+    function newConsultation(data, patientId){
+        const patient = patients.value.find(p => p.id === patientId)
+        patient.consoltation = data
+    }
+
+    function newLab(data, patientId){
+        const patient = patients.value.find(p => p.id === patientId)
+        patient.lab = data
+    }
+
+    function newPrescription(data, patientId){
+        const patient = patients.value.find(p => p.id === patientId)
+        patient.prescription = data
+    }
      
     return { 
         patients,
         addPatient,
         selectPatient,
         selectedPatient,
+        resetPatients,
+        newTriage,
+        newConsultation,
+        newLab,
+        newPrescription,
     }
+},
+{
+    persist: true,
 })
